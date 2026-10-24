@@ -1,0 +1,4 @@
+corpus,layer,encounters,models
+ACI-Bench,text,264,2 note models
+PriMock57,text,57,2 note models
+PriMock57,audio,29,2 ASR x 2 note models

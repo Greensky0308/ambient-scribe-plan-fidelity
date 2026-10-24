@@ -1,0 +1,73 @@
+pair,brand,generic,form,condition,model,term,recognized,similarity,transcript
+0,Aleve,naproxen,brand,clean,large,Aleve,True,0.8,I have been taking Alive for pain.
+0,Aleve,naproxen,brand,fast,large,Aleve,True,1.0,I have been taking Aleve for pain.
+0,Aleve,naproxen,brand,noise,large,Aleve,False,0.667,I have been taking Ali's cocaine.
+0,Aleve,naproxen,generic,clean,large,naproxen,True,1.0,I have been taking naproxen for pain.
+0,Aleve,naproxen,generic,fast,large,naproxen,True,1.0,I have been taking naproxen for pain.
+0,Aleve,naproxen,generic,noise,large,naproxen,False,0.706,I have been taking Napriksen for pain.
+10,Serzone,nefazodone,brand,clean,large,Serzone,True,0.857,I have been taking CERZONE for depression.
+10,Serzone,nefazodone,brand,fast,large,Serzone,False,0.714,I have been taking cirzone for depression.
+10,Serzone,nefazodone,brand,noise,large,Serzone,True,0.857,I have been taking CERZONE for depression.
+10,Serzone,nefazodone,generic,clean,large,nefazodone,True,1.0,I have been taking nefazodone for depression.
+10,Serzone,nefazodone,generic,fast,large,nefazodone,True,0.9,I have been taking nifazodone for depression.
+10,Serzone,nefazodone,generic,noise,large,nefazodone,False,0.35,I have been taking methamphetamine for depression.
+11,Lamprene,clofazimine,brand,clean,large,Lamprene,True,1.0,I was prescribed Lamprene for an infection.
+11,Lamprene,clofazimine,brand,fast,large,Lamprene,True,0.875,I was prescribed Lamprine for an infection.
+11,Lamprene,clofazimine,brand,noise,large,Lamprene,True,1.0,I was prescribed lamprene for an infection.
+11,Lamprene,clofazimine,generic,clean,large,clofazimine,True,0.818,I was prescribed clefazamine for an infection.
+11,Lamprene,clofazimine,generic,fast,large,clofazimine,True,0.818,I was prescribed clifazamine for an infection.
+11,Lamprene,clofazimine,generic,noise,large,clofazimine,False,0.545,I was prescribed Parfasamine for an infection.
+1,Nurofen,ibuprofen,brand,clean,large,Nurofen,True,1.0,I have been taking Nurofen for pain.
+1,Nurofen,ibuprofen,brand,fast,large,Nurofen,True,0.923,I have been taking urofen for pain.
+1,Nurofen,ibuprofen,brand,noise,large,Nurofen,False,0.571,I have been taking urethin for pain.
+1,Nurofen,ibuprofen,generic,clean,large,ibuprofen,True,1.0,I have been taking ibuprofen for pain.
+1,Nurofen,ibuprofen,generic,fast,large,ibuprofen,True,1.0,I have been taking ibuprofen for pain.
+1,Nurofen,ibuprofen,generic,noise,large,ibuprofen,False,0.533,I have been taking either person for pain.
+2,Tylenol,acetaminophen,brand,clean,large,Tylenol,True,1.0,I have been taking Tylenol for pain.
+2,Tylenol,acetaminophen,brand,fast,large,Tylenol,True,1.0,I have been taking Tylenol for pain.
+2,Tylenol,acetaminophen,brand,noise,large,Tylenol,True,1.0,I have been taking Tylenol cocaine.
+2,Tylenol,acetaminophen,generic,clean,large,acetaminophen,True,1.0,I have been taking acetaminophen for pain.
+2,Tylenol,acetaminophen,generic,fast,large,acetaminophen,True,1.0,I have been taking acetaminophen for pain.
+2,Tylenol,acetaminophen,generic,noise,large,acetaminophen,True,1.0,I have been taking acetaminophen cocaine
+3,Voltaren,diclofenac,brand,clean,large,Voltaren,True,1.0,I have been taking Voltaren for pain.
+3,Voltaren,diclofenac,brand,fast,large,Voltaren,True,1.0,I have been taking Voltaren for pain.
+3,Voltaren,diclofenac,brand,noise,large,Voltaren,False,0.444,I have been taking both urine for pain.
+3,Voltaren,diclofenac,generic,clean,large,diclofenac,True,1.0,I have been taking Diclofenac for pain.
+3,Voltaren,diclofenac,generic,fast,large,diclofenac,True,0.9,I have been taking Daclofenac for pain.
+3,Voltaren,diclofenac,generic,noise,large,diclofenac,False,0.421,I have been taken to Klausenak cocaine.
+4,Feldene,piroxicam,brand,clean,large,Feldene,True,0.857,I have been taking Feldein for pain.
+4,Feldene,piroxicam,brand,fast,large,Feldene,True,0.857,I have been taking Feldeen for pain.
+4,Feldene,piroxicam,brand,noise,large,Feldene,False,0.571,I have been taking Sheldin for pain
+4,Feldene,piroxicam,generic,clean,large,piroxicam,True,0.889,I have been taking peroxicam for pain.
+4,Feldene,piroxicam,generic,fast,large,piroxicam,True,0.889,I have been taking peroxicam for pain.
+4,Feldene,piroxicam,generic,noise,large,piroxicam,False,0.533,I have been taken to Oxytam for pain.
+5,Indocin,indomethacin,brand,clean,large,Indocin,False,0.714,I have been taking Indusin for pain.
+5,Indocin,indomethacin,brand,fast,large,Indocin,True,1.0,I have been taking Indocin for pain.
+5,Indocin,indomethacin,brand,noise,large,Indocin,False,0.667,I have been taking Indus in for pain.
+5,Indocin,indomethacin,generic,clean,large,indomethacin,True,1.0,I have been taking indomethacin for pain.
+5,Indocin,indomethacin,generic,fast,large,indomethacin,True,1.0,I have been taking indomethacin for pain.
+5,Indocin,indomethacin,generic,noise,large,indomethacin,False,0.667,I have been taking in Dimeficin for pain.
+6,Flagyl,metronidazole,brand,clean,large,Flagyl,True,1.0,I was prescribed Flagyl for an infection.
+6,Flagyl,metronidazole,brand,fast,large,Flagyl,True,0.833,I was prescribed FLAGIL for an infection.
+6,Flagyl,metronidazole,brand,noise,large,Flagyl,False,0.615,I was prescribed fragile for an infection.
+6,Flagyl,metronidazole,generic,clean,large,metronidazole,True,1.0,I was prescribed metronidazole for an infection.
+6,Flagyl,metronidazole,generic,fast,large,metronidazole,True,1.0,I was prescribed metronidazole for an infection.
+6,Flagyl,metronidazole,generic,noise,large,metronidazole,True,1.0,I was prescribed metronidazole for an infection.
+7,Macrobid,nitrofurantoin,brand,clean,large,Macrobid,True,1.0,I was prescribed macrobid for an infection.
+7,Macrobid,nitrofurantoin,brand,fast,large,Macrobid,True,1.0,I was prescribed macrobid for an infection.
+7,Macrobid,nitrofurantoin,brand,noise,large,Macrobid,False,0.625,I was prescribed Necrovid for an infection.
+7,Macrobid,nitrofurantoin,generic,clean,large,nitrofurantoin,True,1.0,I was prescribed nitrofurantoin for an infection.
+7,Macrobid,nitrofurantoin,generic,fast,large,nitrofurantoin,True,1.0,I was prescribed nitrofurantoin for an infection.
+7,Macrobid,nitrofurantoin,generic,noise,large,nitrofurantoin,True,1.0,I was prescribed nitrofurantoin for an infection.
+8,Rifadin,rifampicin,brand,clean,large,Rifadin,True,0.857,I was prescribed rifidin for an infection.
+8,Rifadin,rifampicin,brand,fast,large,Rifadin,True,0.857,I was prescribed Rifidin for an infection.
+8,Rifadin,rifampicin,brand,noise,large,Rifadin,True,0.8,I was prescribed Riffidin for an infection.
+8,Rifadin,rifampicin,generic,clean,large,rifampicin,True,1.0,I was prescribed rifampicin for an infection.
+8,Rifadin,rifampicin,generic,fast,large,rifampicin,True,0.9,I was prescribed refampicin for an infection.
+8,Rifadin,rifampicin,generic,noise,large,rifampicin,False,0.375,I was prescribed 3-Panthasin for an infection.
+9,Zyloprim,allopurinol,brand,clean,large,Zyloprim,True,0.875,I have been taking xyloprim for gout.
+9,Zyloprim,allopurinol,brand,fast,large,Zyloprim,True,0.875,I have been taking xyloprim for gout.
+9,Zyloprim,allopurinol,brand,noise,large,Zyloprim,False,0.471,I have been taking xyletrine for golf.
+9,Zyloprim,allopurinol,generic,clean,large,allopurinol,True,1.0,I have been taking allopurinol for gout.
+9,Zyloprim,allopurinol,generic,fast,large,allopurinol,True,1.0,I have been taking allopurinol for gout.
+9,Zyloprim,allopurinol,generic,noise,large,allopurinol,False,0.6,I have been taken out of urinal for gout.

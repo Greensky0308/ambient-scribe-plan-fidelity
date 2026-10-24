@@ -1,0 +1,4 @@
+case,severity,plan,note,change
+D2N152,HIGH,BP check daily,Blood sugar check,SUBSTITUTION
+day5_consultation10,MEDIUM,"Rx med, not ibuprofen",Omitted,OMISSION
+D2N061,MEDIUM,Routine PCP follow-up,Only if sugar rises,CONDITIONAL

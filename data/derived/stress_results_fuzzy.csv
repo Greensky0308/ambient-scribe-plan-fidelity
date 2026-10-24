@@ -1,0 +1,145 @@
+pair,brand,generic,form,condition,model,term,target_found,hallucinated,transcript,similarity,recognized
+0,Aleve,naproxen,brand,clean,small,Aleve,False,,I have been taking Ali for pain.,0.6666666666666666,False
+0,Aleve,naproxen,brand,clean,medium,Aleve,True,,I have been taking Aleve for pain.,1.0,True
+0,Aleve,naproxen,brand,fast,small,Aleve,False,,I have been taking Ali for pain.,0.6666666666666666,False
+0,Aleve,naproxen,brand,fast,medium,Aleve,True,,I have been taking Aleve for pain.,1.0,True
+0,Aleve,naproxen,brand,noise,small,Aleve,False,,I have been taking Ellie's cocaine.,0.6666666666666666,False
+0,Aleve,naproxen,brand,noise,medium,Aleve,False,,I have been taking Ali for pain.,0.6666666666666666,False
+0,Aleve,naproxen,generic,clean,small,naproxen,True,,I have been taking naproxen for pain.,1.0,True
+0,Aleve,naproxen,generic,clean,medium,naproxen,True,,I have been taking naproxen for pain.,1.0,True
+0,Aleve,naproxen,generic,fast,small,naproxen,True,,I have been taking naproxen for pain.,1.0,True
+0,Aleve,naproxen,generic,fast,medium,naproxen,True,,I have been taking naproxen for pain.,1.0,True
+0,Aleve,naproxen,generic,noise,small,naproxen,False,,I have been taking napkins in for pain.,0.5333333333333333,False
+0,Aleve,naproxen,generic,noise,medium,naproxen,False,,I have been taking Naficin for pain.,0.4,False
+1,Nurofen,ibuprofen,brand,clean,small,Nurofen,False,,I have been taking neurofen for pain.,0.9333333333333333,True
+1,Nurofen,ibuprofen,brand,clean,medium,Nurofen,True,,I have been taking Nurofen for pain.,1.0,True
+1,Nurofen,ibuprofen,brand,fast,small,Nurofen,False,,I have been taking urethane for pain.,0.5333333333333333,False
+1,Nurofen,ibuprofen,brand,fast,medium,Nurofen,True,,I have been taking Nurofen for pain.,1.0,True
+1,Nurofen,ibuprofen,brand,noise,small,Nurofen,False,,I have been taking urine for pain.,0.5,False
+1,Nurofen,ibuprofen,brand,noise,medium,Nurofen,False,,I have been taking Muracan for pain.,0.42857142857142855,False
+1,Nurofen,ibuprofen,generic,clean,small,ibuprofen,True,,I have been taking ibuprofen for pain.,1.0,True
+1,Nurofen,ibuprofen,generic,clean,medium,ibuprofen,True,,I have been taking ibuprofen for pain.,1.0,True
+1,Nurofen,ibuprofen,generic,fast,small,ibuprofen,True,,I have been taking ibuprofen for pain.,1.0,True
+1,Nurofen,ibuprofen,generic,fast,medium,ibuprofen,True,,I have been taking ibuprofen for pain.,1.0,True
+1,Nurofen,ibuprofen,generic,noise,small,ibuprofen,False,,I have been taken by the person for pain.,0.5333333333333333,False
+1,Nurofen,ibuprofen,generic,noise,medium,ibuprofen,False,,I have been taking either person for pain.,0.5333333333333333,False
+2,Tylenol,acetaminophen,brand,clean,small,Tylenol,True,,I have been taking Tylenol for pain.,1.0,True
+2,Tylenol,acetaminophen,brand,clean,medium,Tylenol,True,,I have been taking Tylenol for pain.,1.0,True
+2,Tylenol,acetaminophen,brand,fast,small,Tylenol,True,,I have been taking Tylenol for pain.,1.0,True
+2,Tylenol,acetaminophen,brand,fast,medium,Tylenol,True,,I have been taking Tylenol for pain.,1.0,True
+2,Tylenol,acetaminophen,brand,noise,small,Tylenol,True,,I have been taking Tylenol cocaine.,1.0,True
+2,Tylenol,acetaminophen,brand,noise,medium,Tylenol,True,,I have been taking Tylenol for pain.,1.0,True
+2,Tylenol,acetaminophen,generic,clean,small,acetaminophen,True,,I have been taking acetaminophen for pain.,1.0,True
+2,Tylenol,acetaminophen,generic,clean,medium,acetaminophen,True,,I have been taking acetaminophen for pain.,1.0,True
+2,Tylenol,acetaminophen,generic,fast,small,acetaminophen,True,,I have been taking acetaminophen for pain.,1.0,True
+2,Tylenol,acetaminophen,generic,fast,medium,acetaminophen,True,,I have been taking acetaminophen for pain.,1.0,True
+2,Tylenol,acetaminophen,generic,noise,small,acetaminophen,True,,I have been taking acetaminophen cocaine.,1.0,True
+2,Tylenol,acetaminophen,generic,noise,medium,acetaminophen,True,,I have been taking acetaminophen for pain.,1.0,True
+3,Voltaren,diclofenac,brand,clean,small,Voltaren,False,,I have been taking Volterin for pain.,0.75,True
+3,Voltaren,diclofenac,brand,clean,medium,Voltaren,True,,I have been taking Voltaren for pain.,1.0,True
+3,Voltaren,diclofenac,brand,fast,small,Voltaren,False,,I have been taking Volterin for pain.,0.75,True
+3,Voltaren,diclofenac,brand,fast,medium,Voltaren,True,,I have been taking Voltaren for pain.,1.0,True
+3,Voltaren,diclofenac,brand,noise,small,Voltaren,False,,I have been taken vulture and cocaine.,0.6666666666666666,False
+3,Voltaren,diclofenac,brand,noise,medium,Voltaren,False,,I have been taking Vulture in for pain.,0.6666666666666666,False
+3,Voltaren,diclofenac,generic,clean,small,diclofenac,True,,I have been taking diclofenac for pain.,1.0,True
+3,Voltaren,diclofenac,generic,clean,medium,diclofenac,True,,I have been taking diclofenac for pain.,1.0,True
+3,Voltaren,diclofenac,generic,fast,small,diclofenac,False,,I have been taken to Clofenac for pain.,0.8888888888888888,True
+3,Voltaren,diclofenac,generic,fast,medium,diclofenac,True,,I have been taking diclofenac for pain.,1.0,True
+3,Voltaren,diclofenac,generic,noise,small,diclofenac,False,,I have been taken to cloth and ask for pain.,0.43478260869565216,False
+3,Voltaren,diclofenac,generic,noise,medium,diclofenac,False,,I have been taken to Crosonas for pain.,0.4444444444444444,False
+4,Feldene,piroxicam,brand,clean,small,Feldene,True,,I have been taking Feldene for pain.,1.0,True
+4,Feldene,piroxicam,brand,clean,medium,Feldene,False,,I have been taking feldine for pain.,0.8571428571428571,True
+4,Feldene,piroxicam,brand,fast,small,Feldene,True,,I have been taking Feldene for pain.,1.0,True
+4,Feldene,piroxicam,brand,fast,medium,Feldene,False,,I have been taking feltine for pain.,0.7142857142857143,False
+4,Feldene,piroxicam,brand,noise,small,Feldene,False,,I have been taken seldom for pain.,0.5454545454545454,False
+4,Feldene,piroxicam,brand,noise,medium,Feldene,False,,I have been taken selving for pain.,0.5454545454545454,False
+4,Feldene,piroxicam,generic,clean,small,piroxicam,False,,I have been taking pyroxicam for pain.,0.8888888888888888,True
+4,Feldene,piroxicam,generic,clean,medium,piroxicam,False,,I have been taking Pyroxacam for pain.,0.7777777777777778,True
+4,Feldene,piroxicam,generic,fast,small,piroxicam,False,,I have been taking peroxocam for pain.,0.7777777777777778,True
+4,Feldene,piroxicam,generic,fast,medium,piroxicam,False,,I have been taking Piraxacam for pain.,0.7777777777777778,True
+4,Feldene,piroxicam,generic,noise,small,piroxicam,False,,I have been taken to lots of chemical canes.,0.4,False
+4,Feldene,piroxicam,generic,noise,medium,piroxicam,False,,I have been taking Pteroxetan for pain.,0.5263157894736842,False
+5,Indocin,indomethacin,brand,clean,small,Indocin,False,,I have been taking Indus in for pain.,0.6666666666666666,False
+5,Indocin,indomethacin,brand,clean,medium,Indocin,False,,I have been taking Indicine for pain.,0.8,True
+5,Indocin,indomethacin,brand,fast,small,Indocin,False,,I have been taking Indus in for pain.,0.6666666666666666,False
+5,Indocin,indomethacin,brand,fast,medium,Indocin,False,,I have been taking Indicine for pain.,0.8,True
+5,Indocin,indomethacin,brand,noise,small,Indocin,False,,I have been taken into simpler pain.,0.5454545454545454,False
+5,Indocin,indomethacin,brand,noise,medium,Indocin,False,,I have been taking Indecent for pain.,0.6666666666666666,False
+5,Indocin,indomethacin,generic,clean,small,indomethacin,False,,I have been taking endomethosine for pain.,0.72,False
+5,Indocin,indomethacin,generic,clean,medium,indomethacin,True,,I have been taking indomethacin for pain.,1.0,True
+5,Indocin,indomethacin,generic,fast,small,indomethacin,False,,I have been taking endomethosin for pain.,0.75,True
+5,Indocin,indomethacin,generic,fast,medium,indomethacin,True,,I have been taking Indomethacin for pain.,1.0,True
+5,Indocin,indomethacin,generic,noise,small,indomethacin,False,,I have been taken into Memphis in Spokane.,0.5925925925925926,False
+5,Indocin,indomethacin,generic,noise,medium,indomethacin,False,,I have been taking indonephicine for pain.,0.72,False
+6,Flagyl,metronidazole,brand,clean,small,Flagyl,False,,I was prescribed flagell for an infection.,0.7692307692307693,True
+6,Flagyl,metronidazole,brand,clean,medium,Flagyl,False,,I was prescribed Flagell for an infection.,0.7692307692307693,True
+6,Flagyl,metronidazole,brand,fast,small,Flagyl,False,,I was prescribed Flagell for an infection.,0.7692307692307693,True
+6,Flagyl,metronidazole,brand,fast,medium,Flagyl,False,,I was prescribed Flagell for an infection.,0.7692307692307693,True
+6,Flagyl,metronidazole,brand,noise,small,Flagyl,False,,I was prescribed fragile for an infection.,0.6153846153846154,False
+6,Flagyl,metronidazole,brand,noise,medium,Flagyl,False,,I was prescribed fragile for an infection.,0.6153846153846154,False
+6,Flagyl,metronidazole,generic,clean,small,metronidazole,True,,I was prescribed Metronidazole for an infection.,1.0,True
+6,Flagyl,metronidazole,generic,clean,medium,metronidazole,True,,I was prescribed metronidazole for an infection.,1.0,True
+6,Flagyl,metronidazole,generic,fast,small,metronidazole,False,,I was prescribed Metronid as all for an infection.,0.7619047619047619,True
+6,Flagyl,metronidazole,generic,fast,medium,metronidazole,True,,I was prescribed metronidazole for an infection.,1.0,True
+6,Flagyl,metronidazole,generic,noise,small,metronidazole,False,,I would prescribe Necronidazole for an infection.,0.8461538461538461,True
+6,Flagyl,metronidazole,generic,noise,medium,metronidazole,True,,I was prescribed metronidazole for an infection.,1.0,True
+7,Macrobid,nitrofurantoin,brand,clean,small,Macrobid,False,,I was prescribed macrobate for an infection.,0.7058823529411765,False
+7,Macrobid,nitrofurantoin,brand,clean,medium,Macrobid,False,,I was prescribed macrobib for an infection.,0.875,True
+7,Macrobid,nitrofurantoin,brand,fast,small,Macrobid,False,,I was prescribed macropid for an infection.,0.875,True
+7,Macrobid,nitrofurantoin,brand,fast,medium,Macrobid,False,,I was prescribed macrobib for an infection.,0.875,True
+7,Macrobid,nitrofurantoin,brand,noise,small,Macrobid,False,,I was prescribed macrophage for an infection.,0.5555555555555556,False
+7,Macrobid,nitrofurantoin,brand,noise,medium,Macrobid,False,,I was prescribed necrotic for an infection.,0.5,False
+7,Macrobid,nitrofurantoin,generic,clean,small,nitrofurantoin,False,,I was prescribed nitrofurantone for an infection.,0.9285714285714286,True
+7,Macrobid,nitrofurantoin,generic,clean,medium,nitrofurantoin,True,,I was prescribed nitrofurantoin for an infection.,1.0,True
+7,Macrobid,nitrofurantoin,generic,fast,small,nitrofurantoin,False,,I was prescribed nitrofurantone for an infection.,0.9285714285714286,True
+7,Macrobid,nitrofurantoin,generic,fast,medium,nitrofurantoin,False,,I was prescribed nitrofuran toin for an infection.,0.9655172413793104,True
+7,Macrobid,nitrofurantoin,generic,noise,small,nitrofurantoin,False,,I was prescribed nitrofurantone for an infection.,0.9285714285714286,True
+7,Macrobid,nitrofurantoin,generic,noise,medium,nitrofurantoin,False,,I was prescribed natrofurantoin for an infection.,0.9285714285714286,True
+8,Rifadin,rifampicin,brand,clean,small,Rifadin,False,,I was prescribed rifidin for an infection.,0.8571428571428571,True
+8,Rifadin,rifampicin,brand,clean,medium,Rifadin,False,,I was prescribed rifodin for an infection.,0.8571428571428571,True
+8,Rifadin,rifampicin,brand,fast,small,Rifadin,False,,I was prescribed rifidin for an infection.,0.8571428571428571,True
+8,Rifadin,rifampicin,brand,fast,medium,Rifadin,False,,I was prescribed Rifidin for an infection.,0.8571428571428571,True
+8,Rifadin,rifampicin,brand,noise,small,Rifadin,False,,"I was precise, rip it in for an injection.",0.5,False
+8,Rifadin,rifampicin,brand,noise,medium,Rifadin,False,,I was prescribed Rifodin for an infection.,0.8571428571428571,True
+8,Rifadin,rifampicin,generic,clean,small,rifampicin,True,,I was prescribed rifampicin for an infection.,1.0,True
+8,Rifadin,rifampicin,generic,clean,medium,rifampicin,True,,I was prescribed Rifampicin for an infection.,1.0,True
+8,Rifadin,rifampicin,generic,fast,small,rifampicin,True,,I was prescribed rifampicin for an infection.,1.0,True
+8,Rifadin,rifampicin,generic,fast,medium,rifampicin,True,,I was prescribed Rifampicin for an infection.,1.0,True
+8,Rifadin,rifampicin,generic,noise,small,rifampicin,False,,I was prescribed RE-Fantasin for an infection.,0.47619047619047616,False
+8,Rifadin,rifampicin,generic,noise,medium,rifampicin,False,,I was prescribed Repampicin for an infection.,0.8,True
+9,Zyloprim,allopurinol,brand,clean,small,Zyloprim,False,,I have been taking xyloprim for God.,0.875,True
+9,Zyloprim,allopurinol,brand,clean,medium,Zyloprim,False,,I have been taking xyloprim for gout.,0.875,True
+9,Zyloprim,allopurinol,brand,fast,small,Zyloprim,False,,I have been taking Xyloprim for God.,0.875,True
+9,Zyloprim,allopurinol,brand,fast,medium,Zyloprim,False,,I have been taking xyloprim for gout.,0.875,True
+9,Zyloprim,allopurinol,brand,noise,small,Zyloprim,False,,I have been taking Zylodrin for God.,0.75,True
+9,Zyloprim,allopurinol,brand,noise,medium,Zyloprim,False,,I have been taking xylophone for God.,0.47619047619047616,False
+9,Zyloprim,allopurinol,generic,clean,small,allopurinol,True,,I have been taking allopurinol for God.,1.0,True
+9,Zyloprim,allopurinol,generic,clean,medium,allopurinol,True,,I have been taking allopurinol for gout.,1.0,True
+9,Zyloprim,allopurinol,generic,fast,small,allopurinol,True,,I have been taking allopurinol for God.,1.0,True
+9,Zyloprim,allopurinol,generic,fast,medium,allopurinol,True,,I have been taking allopurinol for gout.,1.0,True
+9,Zyloprim,allopurinol,generic,noise,small,allopurinol,False,,I have been taken out of hearing over God.,0.4444444444444444,False
+9,Zyloprim,allopurinol,generic,noise,medium,allopurinol,False,,I have been taken alipurinol for God.,0.8571428571428571,True
+10,Serzone,nefazodone,brand,clean,small,Serzone,False,,I have been taking Surzone for depression.,0.8571428571428571,True
+10,Serzone,nefazodone,brand,clean,medium,Serzone,True,,I have been taking Serzone for depression.,1.0,True
+10,Serzone,nefazodone,brand,fast,small,Serzone,False,,I have been taking Surzone for depression.,0.8571428571428571,True
+10,Serzone,nefazodone,brand,fast,medium,Serzone,False,,I have been taking Cerzone for depression.,0.8571428571428571,True
+10,Serzone,nefazodone,brand,noise,small,Serzone,False,,I have been taking Cerzone for depression.,0.8571428571428571,True
+10,Serzone,nefazodone,brand,noise,medium,Serzone,True,,I have been taking Serzone for depression.,1.0,True
+10,Serzone,nefazodone,generic,clean,small,nefazodone,False,,I have been taking nephazodone for depression.,0.8571428571428571,True
+10,Serzone,nefazodone,generic,clean,medium,nefazodone,False,,I have been taking Nifazidone for depression.,0.8,True
+10,Serzone,nefazodone,generic,fast,small,nefazodone,False,,I have been taking nephazodone for depression.,0.8571428571428571,True
+10,Serzone,nefazodone,generic,fast,medium,nefazodone,False,,I have been taking Nifazidone for depression.,0.8,True
+10,Serzone,nefazodone,generic,noise,small,nefazodone,False,,I have been taking this acidone for depression.,0.5882352941176471,False
+10,Serzone,nefazodone,generic,noise,medium,nefazodone,False,,I have been taking Nifazodone for depression.,0.9,True
+11,Lamprene,clofazimine,brand,clean,small,Lamprene,True,,I was prescribed lamprene for an infection.,1.0,True
+11,Lamprene,clofazimine,brand,clean,medium,Lamprene,False,,I was prescribed lamprine for an infection.,0.875,True
+11,Lamprene,clofazimine,brand,fast,small,Lamprene,True,,I was prescribed lamprene for an infection.,1.0,True
+11,Lamprene,clofazimine,brand,fast,medium,Lamprene,False,,I was prescribed lamprine for an infection.,0.875,True
+11,Lamprene,clofazimine,brand,noise,small,Lamprene,False,,I was prescribed lamping for an infection.,0.6666666666666666,False
+11,Lamprene,clofazimine,brand,noise,medium,Lamprene,False,,I was prescribed lamping for an infection.,0.6666666666666666,False
+11,Lamprene,clofazimine,generic,clean,small,clofazimine,False,,I was prescribed clefazamine for an infection.,0.8181818181818182,True
+11,Lamprene,clofazimine,generic,clean,medium,clofazimine,True,,I was prescribed clofazimine for an infection.,1.0,True
+11,Lamprene,clofazimine,generic,fast,small,clofazimine,False,,I was prescribed clefazamine for an infection.,0.8181818181818182,True
+11,Lamprene,clofazimine,generic,fast,medium,clofazimine,False,,I was prescribed clofazamine for an infection.,0.9090909090909091,True
+11,Lamprene,clofazimine,generic,noise,small,clofazimine,False,,I was prescribed for fastening for an infection.,0.4166666666666667,False
+11,Lamprene,clofazimine,generic,noise,medium,clofazimine,False,,I was prescribed for fasenine for an infection.,0.5263157894736842,False
