@@ -1,0 +1,5 @@
+metric,estimate,lo,hi
+Sensitivity,82.8,65.5,92.4
+Specificity,85.2,80.0,89.2
+PPV,41.4,29.6,54.2
+NPV,97.5,94.3,98.9

@@ -1,0 +1,14 @@
+metric,value
+total_encounters,264
+screen_negative,206
+not_evaluable,6
+evaluable_negative,200
+screen_positive,58
+flagged_items,75
+confirmed_cases,29
+detected,24
+missed,5
+tp,24
+fp,34
+fn,5
+tn,195

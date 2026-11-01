@@ -1,0 +1,3 @@
+set,a_no_b_no,a_no_b_yes,a_yes_b_no,a_yes_b_yes,kappa
+screen_negative,192,2,3,2,0.432
+candidate_items,16,11,6,40,0.481
