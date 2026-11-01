@@ -18,10 +18,14 @@ The study uses three public corpora:
 Only aggregate derived tables are included. Raw dialogues, audio, model weights, and
 clinician adjudication worksheets are not distributed. Source links are in `data/README.md`.
 
+The 57 transcript variants are the unique dialogue texts from the ACI-Bench src_experiment_data
+files after deduplication against the 207 challenge encounters (90 variant rows; 57 unique).
+
 ## Analysis layers
 
-- **Text layer**: 321 dialogue texts from 264 independent encounters (207 ACI-Bench +
-  57 transcript variants + 57 PriMock57), two note-generation models.
+- **Text layer**: 264 independent encounters (207 ACI-Bench + 57 PriMock57), plus
+  57 ACI-Bench transcript variants for the text layer (321 dialogue texts), two
+  note-generation models.
 - **Plan-fidelity audit**: restricted to the 264 independent encounters.
 - **Audio layer**: 57 PriMock57 consultations, 29 with at least one hepatotoxic medication.
 
