@@ -1,8 +1,8 @@
 # Plan-fidelity audit of ambient AI scribe notes
 
 Analysis code for a study of plan-level errors in notes generated from doctor-patient
-conversations. The scripts produce Figures 1-4 and Tables 2-3 from aggregate derived
-tables in `data/derived/`.
+conversations. The scripts produce Figures 1-4 and Tables 2-3 and 5 from aggregate
+derived tables in `data/derived/`.
 
 ## Data
 
@@ -65,6 +65,12 @@ Table scripts:
 python src/make_tables.py
 ```
 
+`make_tables.py` also writes `outputs/table5_operational_yield.csv` from
+`plan_flow.csv`. The table reports the operational yield of the screen (review volume,
+reviews per confirmed discrepancy, and missed risk) per 264 encounters and per 1,000
+encounters; no result values are hardcoded. Table 4 is the numerical companion to
+Figure 3 and is built from `severity_by_nature.csv` and `accuracy.csv`.
+
 The element- and audio-level summary scripts (`compute_element_f1.py`,
 `compute_audio_stats.py`, `make_element_counts.py`) expect the public corpora and are
 included for provenance; the derived tables they produce are already in `data/derived/`.
@@ -72,7 +78,9 @@ included for provenance; the derived tables they produce are already in `data/de
 ## Outputs
 
 `outputs/figure1.pdf`, `figure2.pdf`, `figure3.pdf`, `figure4.pdf` and their PNG versions.
-`outputs/` is excluded from version control; run the scripts to recreate the figures.
+`make_tables.py` writes `table2_text_fidelity.csv`, `table3_audio_fidelity.csv`,
+`stress_summary.csv`, and `table5_operational_yield.csv`. `outputs/` is excluded from
+version control; run the scripts to recreate the figures and tables.
 
 ## License
 
