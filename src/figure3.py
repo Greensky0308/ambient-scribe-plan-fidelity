@@ -56,8 +56,6 @@ box(3.0, 0.2, 4.0, 0.9, f"{flow['confirmed_cases']} confirmed high/medium\n"
 arrow(4.4, 8.6, 2.6, 7.1); arrow(5.6, 8.6, 7.4, 7.1)
 arrow(2.4, 5.6, 2.4, 4.0); arrow(7.6, 5.6, 7.6, 4.0)
 arrow(2.4, 2.4, 4.2, 1.1); arrow(7.6, 2.4, 5.8, 1.1)
-ax.text(0.02, 0.98, "a", transform=ax.transAxes, va="top", fontsize=8, fontweight="bold")
-
 # b confirmed items by nature and severity
 ax = axes[0, 1]
 high = nature["HIGH"].values
@@ -72,7 +70,6 @@ ax.set_ylabel("High/medium items")
 ax.set_ylim(0, max(high + med) + 5)
 ax.legend(frameon=False, loc="upper right", handlelength=1.0)
 ax.spines[["top", "right"]].set_visible(False)
-ax.text(-0.25, 1.02, "b", transform=ax.transAxes, fontsize=8, fontweight="bold")
 
 # c accuracy with Wilson CIs
 ax = axes[1, 0]
@@ -81,13 +78,12 @@ err = np.vstack([vals - acc["lo"].values, acc["hi"].values - vals])
 colors = [BLUE if m != "PPV" else ORANGE for m in acc["metric"]]
 ax.barh(np.arange(len(acc)), vals, color=colors, height=0.5)
 ax.errorbar(vals, np.arange(len(acc)), xerr=err, fmt="none", ecolor="#333333", lw=0.8, capsize=2)
-for i, v in enumerate(vals):
-    ax.text(min(v + 4, 101), i, f"{v:.1f}%", va="center", fontsize=6)
+for i, (v, hi) in enumerate(zip(vals, acc["hi"].values)):
+    ax.text(hi + 1.5, i, f"{v:.1f}%", va="center", ha="left", fontsize=6)
 ax.set_yticks(np.arange(len(acc))); ax.set_yticklabels(acc["metric"])
-ax.set_xlim(0, 110); ax.set_xlabel("Percent (95% CI)")
+ax.set_xlim(0, 112); ax.set_xlabel("Percent (95% CI)")
 ax.invert_yaxis()
 ax.spines[["top", "right"]].set_visible(False)
-ax.text(-0.28, 1.02, "c", transform=ax.transAxes, fontsize=8, fontweight="bold")
 
 # d reviewer agreement
 ax = axes[1, 1]
@@ -101,9 +97,27 @@ ax.set_xticks(np.arange(len(agree))); ax.set_xticklabels(labels)
 ax.set_ylabel("Cohen κ")
 ax.set_ylim(0, max(agree["kappa"]) + 0.2)
 ax.spines[["top", "right"]].set_visible(False)
-ax.text(-0.28, 1.02, "d", transform=ax.transAxes, fontsize=8, fontweight="bold")
 
 fig.tight_layout(pad=0.8)
+fig.canvas.draw()
+renderer = fig.canvas.get_renderer()
+letters = [["a", "c"], ["b", "d"]]
+for col in range(axes.shape[1]):
+    col_axes = axes[:, col]
+    xs_all = []
+    for ax in col_axes:
+        xs_all.append(ax.get_window_extent(renderer).x0)
+        if ax.yaxis.label.get_text():
+            xs_all.append(ax.yaxis.label.get_window_extent(renderer).x0)
+        for lab in ax.get_yticklabels():
+            if lab.get_text():
+                xs_all.append(lab.get_window_extent(renderer).x0)
+    xcol = min(xs_all)
+    for row, ax in enumerate(col_axes):
+        y = ax.get_window_extent(renderer).y1 + 5
+        fig.text(xcol / fig.bbox.width, y / fig.bbox.height, letters[col][row],
+                 fontsize=8, ha="left", va="bottom")
+
 fig.savefig(os.path.join(OUT, "figure3.pdf"), bbox_inches="tight")
 fig.savefig(os.path.join(OUT, "figure3.png"), dpi=300, bbox_inches="tight")
 print("wrote figure3.pdf / figure3.png")
