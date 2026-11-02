@@ -18,8 +18,10 @@ The study uses three public corpora:
 Only aggregate derived tables are included. Raw dialogues, audio, model weights, and
 clinician adjudication worksheets are not distributed. Source links are in `data/README.md`.
 
-The 57 transcript variants are the unique dialogue texts from the ACI-Bench src_experiment_data
-files after deduplication against the 207 challenge encounters (90 variant rows; 57 unique).
+The 57 additional dialogue texts are the unique texts in the ACI-Bench src_experiment_data
+files that were not identical to any of the 207 challenge dialogues (17 ACI and 40 VirtScribe
+texts); deduplication was by dialogue text, because the source files reuse encounter identifiers
+across transcript versions.
 
 ## Analysis layers
 
